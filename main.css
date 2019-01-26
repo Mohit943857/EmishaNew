@@ -10,7 +10,6 @@ body {
     border-radius: 10px;
     box-shadow: 0 5px 10px 0 rgba(0,0,0,.1);
 }
-
 @media (max-width: 991px) {
     .navbar-container .navbar .navbar-nav {
         padding: 16px;
@@ -19,10 +18,24 @@ body {
     }
 }
 
-  
+.container {
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+}
+@media only screen and (max-width: 767px) {
+    .container {
+        width: 300px;
+    }
+}
+
   .img-fluid {
     max-width: 100%;
     height: auto;
+}
+img {
+    border: none;
+    max-width: 100%;
 }
 
 #about {
@@ -37,4 +50,3 @@ section {
 .title {
     padding: 20px;
 }
-
