@@ -9,8 +9,9 @@ body {
     background-color: #fff;
     transition: all .2s ease-in;
     border-radius: 10px;
-    box-shadow: 0 5px 10px 0 rgba(0,0,0,.1);
-}
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,.2);
+} 
+
 @media (max-width: 991px) {
     .navbar-container .navbar .navbar-nav {
         padding: 16px;
@@ -26,18 +27,11 @@ h1 {
     font-weight: bold;
 }
 @media screen and (max-width: 768px) {
-    h1{
-        font-size:20px;
+    h1{ 
+        font-size:20px;    
         font-weight: bold;
     }
 }
-
-.section-heading {
-    color: #ffffff;
-}
-
-
-
 
 @media screen and (max-width: 768px) {
     h3{
@@ -65,19 +59,19 @@ img {
 
 #about {
     background-color: #03A9F4;
-    padding: 128px 0;
+    padding: 100px 0;
 }
 @media (max-width:767px) {
     #about {
         background-color: #03A9F4;
-        padding: 50px 0;
+        padding: 40px 0;
     }
 }
    
 
 #communities {
     background-color: #90ee90;
-    padding: 128px 0;
+    padding: 100px 0;
 }
 @media (max-width:767px) {
     #communities {
@@ -111,10 +105,11 @@ img {
 
 
 .section-heading{
-    background: #3f51b5; 
+    background: #3a56f3; 
     border-radius: 10px;
     box-shadow: 0 5px 10px 0 rgba(0,0,0,.1);
     text-align: center;
+    color: #ffffff;
 }
 
 .icon-play{
