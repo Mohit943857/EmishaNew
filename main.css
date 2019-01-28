@@ -23,7 +23,22 @@ h1 {
     text-align: center;
     margin-bottom: 50px;
     color: #363636;
+    font-weight: bold;
 }
+@media screen and (max-width: 768px) {
+    h1{
+        font-size:20px;
+        font-weight: bold;
+    }
+}
+
+.section-heading {
+    color: #ffffff;
+}
+
+
+
+
 @media screen and (max-width: 768px) {
     h3{
         font-size:20px;
@@ -42,7 +57,6 @@ h1 {
 
   .img-fluid {
     max-width: 100%;
-    height: auto;
 }
 img {
     border: none;
@@ -53,13 +67,34 @@ img {
     background-color: #03A9F4;
     padding: 128px 0;
 }
+@media (max-width:767px) {
+    #about {
+        background-color: #03A9F4;
+        padding: 50px 0;
+    }
+}
+   
+
 #communities {
     background-color: #90ee90;
     padding: 128px 0;
 }
+@media (max-width:767px) {
+    #communities {
+        background-color: #90ee90;
+        padding: 50px 0;
+    }
+}
+
 #diversity {
     background-color: #ffffff;
     padding: 90px 0;
+}
+@media (max-width:767px) {
+    #diversity {
+        background-color: #ffffff;
+        padding: 50px 0;
+    }
 }
 
 #diversity_carousel {
@@ -124,10 +159,17 @@ img {
 	color:#eeeeee;
 }
 
-@media (max-width:767px){
+@media (max-width:767px) {
 	#footer h5 {
     padding-left: 0;
     border-left: transparent;
     padding-bottom: 0px;
     margin-bottom: 10px;
+ }
+}
+
+@media (max-width:767px) {
+    .text-justify {
+        font-size: 16px;
+    }
 }
